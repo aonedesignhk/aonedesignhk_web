@@ -1,0 +1,389 @@
+main_style@font-face {
+    font-family: Mhei;
+    src: url('fonts/MHeiHK-Light.otf');
+}
+
+.header-div {}
+
+.header-bg-div {
+    width: 100vw;
+
+    /* height: 1070px; */
+}
+
+
+
+.header-bg {
+    /* width: 100%; */
+    /* position: relative; */
+    /* display: inline-block; */
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.award-holder {
+    /* width: 200px; */
+    max-width: 350px;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.award-img {
+    /* width: 100%; */
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+
+    max-width: 100%;
+
+}
+
+.fb-page-div {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    z-index: 300;
+    width: 350px;
+
+}
+
+.fb-page-small-div {
+    position: absolute;
+    /* right: 40px; */
+    top: 40px;
+    z-index: 300;
+    display: none;
+}
+
+.header-logo {
+    position: absolute;
+    left: 60px;
+    top: 260px;
+    z-index: 300;
+
+}
+
+.header-intro-div {
+
+    position: absolute;
+    top: 640px;
+	right: 0px;
+    z-index: 300;
+	max-width:67.5%;
+
+}
+
+.header-intro {
+    background: #918579AA;
+    font-size: 20pt;
+    color: white;
+    padding: 15px;
+    font-family: Mhei;
+}
+
+.header-logo img {
+    width: 500px;
+}
+
+
+.bottom-div {
+    padding-top: 20px;
+    background-image: linear-gradient(180deg, #FBFBFB 52%, rgba(247, 247, 247, 0.67) 100%);
+}
+
+.footer-text {
+    background-image: linear-gradient(180deg, #FBFBFB 52%, rgba(247, 247, 247, 0.67) 100%);
+}
+
+.footer-text p {
+    color: #636363;
+    font-size: 8pt;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 140px;
+    width: 140px;
+    padding-left: 20px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 140px;
+    width: 140px;
+}
+
+@media (min-width: 0px) and (max-width: 720px) {
+
+    .header-div {
+        margin-bottom: 350px;
+        background-color: #918579AA;
+    }
+
+    /* .bottom-div
+    {
+        padding-top: 280px;
+    } */
+
+    .award-img {
+        width: 100%;
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 150px;
+        padding: 10px;
+
+    }
+
+    .header-bg-div {
+        width: 100vw;
+        /* height: 1070px; */
+        background: #918579AA;
+    }
+
+    .header-bg {
+        object-fit: cover;
+    }
+
+    .header-logo {
+        position: absolute;
+        left: 60px;
+        top: 5%;
+        z-index: 300;
+        max-width: 240px;
+    }
+
+    .header-logo img {
+        max-width: 200px;
+    }
+
+
+    .header-intro-div {
+		max-width: 100% !important;
+        position: absolute;
+        top: 230px;
+        left: 0px;
+		right: 0px;
+        width: 100%;
+        z-index: 300;
+
+    }
+
+    .header-intro {
+        background: #918579AA;
+        font-size: 12pt;
+        color: white;
+        padding: 15px;
+        font-family: Mhei;
+    }
+
+    .fb-page-div {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        z-index: 300;
+        width: 350px;
+        display: none;
+    }
+
+    .fb-page-small-div {
+        position: absolute;
+        /* right: 40px; */
+        top: 440px;
+        z-index: 300;
+        display: inline;
+    }
+
+    .map-text {
+        font-size: 8pt;
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 100px;
+        width: 100px;
+        padding-left: 20px;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+@media (min-width: 720px) and (max-width: 960px) {
+
+    .header-div {
+        /* background-color: #918579AA; */
+    }
+
+    .header-bg-div {
+        width: 100vw;
+        /* height: 1070px; */
+    }
+
+    .header-bg {
+        object-fit: cover;
+    }
+
+    .header-logo {
+        position: absolute;
+        left: 60px;
+        top: 10%;
+        z-index: 300;
+    }
+
+    .header-logo img {
+        max-width: 300px;
+    }
+
+
+    .header-intro-div {
+
+        position: absolute;
+        top: 300px;
+        width: 100%;
+        z-index: 300;
+
+    }
+
+    .header-intro {
+        background: #918579AA;
+        font-size: 10pt;
+        color: white;
+        padding: 15px;
+        font-family: Mhei;
+    }
+
+    .fb-page-div {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        z-index: 300;
+        width: 350px;
+        display: none;
+    }
+
+    .fb-page-small-div {
+        position: absolute;
+        /* right: 40px; */
+        top: 40px;
+        z-index: 300;
+        display: inline;
+
+    }
+
+    .map-text {
+        font-size: 6pt;
+    }
+
+
+}
+
+
+
+@media (min-width: 961px) and (max-width: 1200px) {
+
+    .header-logo {
+        position: absolute;
+        left: 60px;
+        top: 12%;
+        z-index: 300;
+    }
+
+    .header-logo img {
+        max-width: 400px;
+    }
+
+    .header-intro-div {
+
+        position: absolute;
+        top: 400px;
+        width: 100%;
+        z-index: 300;
+
+    }
+
+    .header-intro {
+        background: #918579AA;
+        font-size: 12pt;
+        color: white;
+        padding: 15px;
+        font-family: Mhei;
+    }
+
+    .fb-page-div {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        z-index: 300;
+        width: 350px;
+        display: none;
+    }
+
+    .fb-page-small-div {
+        position: absolute;
+        /* right: 40px; */
+        top: 40px;
+        z-index: 300;
+        display: inline;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .header-logo {
+        position: absolute;
+        left: 60px;
+        top: 12%;
+        z-index: 300;
+    }
+
+    .header-logo img {
+        max-width: 400px;
+    }
+
+    .header-intro-div {
+
+        position: absolute;
+        top: 525px;
+        width: 100%;
+        z-index: 300;
+
+    }
+
+    .header-intro {
+        background: #918579AA;
+        font-size: 14pt;
+        color: white;
+        padding: 15px;
+        font-family: Mhei;
+    }
+
+    .fb-page-div {
+        position: absolute;
+        right: 40px;
+        top: 15px;
+        z-index: 300;
+        width: 350px;
+        /* display: none; */
+    }
+
+    .fb-page-small-div {
+        position: absolute;
+        /* right: 40px; */
+        top: 40px;
+        z-index: 300;
+        display: none;
+    }
+}
